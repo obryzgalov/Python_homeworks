@@ -12,5 +12,5 @@ def user_data(**kwargs):
 
 print(user_data(name=input('Name: '), surname=input('S/name: '), birthyear=input('birthyear: '),
               city=input('city: '), email=input('email: '), tel=input('tel: ')))
-
+#прием аргументов и вывод на печать
 
