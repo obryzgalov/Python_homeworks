@@ -6,5 +6,5 @@
 from sys import argv
 
 print("total salary is", (int(argv[1]) * int(argv[2]) + int(argv[3])), "rub")
-#В одну строку
+# В одну строку, короче всего. можно проименовать, но это долго и некрасиво
 
