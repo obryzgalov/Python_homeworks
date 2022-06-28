@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="361f84ef-9c86-4cb4-aaa2-1fd89045c131" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hwk_3_tsk_1_thedivide.py" beforeDir="false" afterPath="$PROJECT_DIR$/hwk_3_tsk_1_thedivide.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hwk_3_tsk_2_userdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/hwk_3_tsk_2_userdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hwk_3_tsk_3_maxsumm.py" beforeDir="false" afterPath="$PROJECT_DIR$/hwk_3_tsk_3_maxsumm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hwk_3_tsk_4_var_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/hwk_3_tsk_4_var_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hwk_3_tsk_4_var_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/hwk_3_tsk_4_var_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hwk_3_tsk_5_enter.py" beforeDir="false" afterPath="$PROJECT_DIR$/hwk_3_tsk_5_enter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hwk_3_tsk_6_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/hwk_3_tsk_6_7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +54,8 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.hwk_2_tsk_6_merch">
-    <configuration name="hwk_1_tsk_4_nbrsrch_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.hwk_3_tsk_2_userdata">
+    <configuration name="hwk_3_tsk_2_userdata" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_homeworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,7 +67,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hwk_1_tsk_4_nbrsrch_v2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hwk_3_tsk_2_userdata.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -70,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hwk_2_tsk_3_calendar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hwk_3_tsk_5_enter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_homeworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hwk_2_tsk_3_calendar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hwk_3_tsk_5_enter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hwk_2_tsk_4_stringinput" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hwk_3_tsk_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_homeworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,7 +109,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hwk_2_tsk_4_stringinput.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hwk_3_tsk_6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hwk_2_tsk_5_rating" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hwk_3_tsk_7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_homeworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,7 +130,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hwk_2_tsk_5_rating.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hwk_3_tsk_7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hwk_2_tsk_6_merch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="new" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_homeworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,7 +151,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hwk_2_tsk_6_merch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hwk_2_tsk_6_merch" />
-        <item itemvalue="Python.hwk_1_tsk_4_nbrsrch_v2" />
-        <item itemvalue="Python.hwk_2_tsk_5_rating" />
-        <item itemvalue="Python.hwk_2_tsk_4_stringinput" />
-        <item itemvalue="Python.hwk_2_tsk_3_calendar" />
+        <item itemvalue="Python.hwk_3_tsk_2_userdata" />
+        <item itemvalue="Python.hwk_3_tsk_6" />
+        <item itemvalue="Python.hwk_3_tsk_7" />
+        <item itemvalue="Python.hwk_3_tsk_5_enter" />
+        <item itemvalue="Python.new" />
       </list>
     </recent_temporary>
   </component>
