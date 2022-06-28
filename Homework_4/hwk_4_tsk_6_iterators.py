@@ -10,3 +10,21 @@
 
 """
 
+from itertools import count, cycle
+
+# часть 1
+new_list = []
+for i in count(int(input('start: '))):
+    new_list.append(i * 0.05)
+    if i == 10:
+        break
+
+print(new_list)
+
+# часть 2
+x = list(range(7))
+for i, j in enumerate(cycle(x)):
+    print(j, end=' ')
+    if i > 29:
+        print()
+        break
