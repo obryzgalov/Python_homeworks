@@ -6,5 +6,4 @@ while True:
         f.write(f"{line}\n")
     else:
         break
-
 f.close()

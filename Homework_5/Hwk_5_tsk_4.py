@@ -7,5 +7,3 @@ with open('task4in.txt', 'r', encoding='UTF-8') as f:
             f1.write(Translator().translate(content, dest='ru').text)
         except ValueError:
             pass
-
-
