@@ -21,4 +21,3 @@ class TrafficLight:
 
 col = TrafficLight()
 col.running()
-

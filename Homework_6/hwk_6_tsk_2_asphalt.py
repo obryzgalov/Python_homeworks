@@ -20,3 +20,4 @@ w = int(input('Введите ширину полотна: '))
 
 road_1 = Road(l, w)
 road_1.asphalt_req()
+# кажется работает

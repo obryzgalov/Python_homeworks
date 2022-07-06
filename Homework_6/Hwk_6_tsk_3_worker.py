@@ -15,6 +15,7 @@ class Position(Worker):
     def get_total_income(self):
         print(sum(self._income.values()), '\nBurn the Heretic!')
 
+
 man = Position('Horus', 'Lupercal', 'gallera slave', 10, 2)
 man.get_full_name()
 man.get_total_income()

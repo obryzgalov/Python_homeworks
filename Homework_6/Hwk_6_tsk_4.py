@@ -14,7 +14,7 @@ class Car:
         dir = input('Where to go?...')
         if dir == 1:
             print('turning left')
-        else:
+        elif dir == 2:
             print('turning right')
 
     def stop(self):
@@ -38,6 +38,7 @@ class TownCar(Car):
 class SportCar(Car):
     """just car"""
 
+
 class WorkCar(Car):
     def show_speed(self):
         if int(self.speed) > 40:
@@ -50,7 +51,17 @@ class PoliceCar(Car):
     is_police = True
 
 
-car_1 = SportCar(900, 'red', 'mini')
+car_1 = TownCar(70, 'red', 'mini')
 car_1.go()
+car_1.show_speed()
 car_1.direction()
 car_1.stop()
+
+car_2 = SportCar(200, 'black', 'maseratti')
+car_2.go()
+car_2.stop()
+car_2.police_check()
+print(f'{car_2.speed} km/h')
+
+car_3 = PoliceCar(100, 'none', 'police')
+car_3.police_check()
