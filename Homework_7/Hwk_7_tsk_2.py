@@ -25,7 +25,7 @@ class Suit(Clothes):
 
     def __init__(self, height):
         self.height = height
-        Suit.s_count += 1  # Просто счетчик. Крсивое
+        Suit.s_count += 1  # Просто счетчик. Красивое
 
     @property
     def sewing(self):
@@ -35,6 +35,7 @@ class Suit(Clothes):
 
     def __str__(self):
         return f"Расход ткани на костюм № {Suit.s_count} размером {self.height} равен {self.sewing}"
+        #  Наконец-то реально понял, что делает __str__(), т.е. "зачем он".
 
 
 class Coat(Clothes):
