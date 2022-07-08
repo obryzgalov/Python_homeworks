@@ -6,8 +6,15 @@
 # для костюма (2*H + 0.3). Проверить работу этих методов на реальных данных.
 # Реализовать общий подсчет расхода ткани. Проверить на практике полученные на этом уроке знания:
 # реализовать абстрактные классы для основных классов проекта, проверить на практике работу декоратора @property.
-class Clothes:
+from abc import ABC, abstractmethod
+
+
+class Clothes(ABC):
     total_cons = 0  # суммарный расход ткани
+
+    @abstractmethod
+    def sewing(self):
+        pass
 
 
 class Suit(Clothes):
@@ -17,7 +24,8 @@ class Suit(Clothes):
         self.height = height
         Suit.s_count += 1  # Просто счетчик. Крсивое
 
-    def sewing_suit(self):
+    @property
+    def sewing(self):
         suit_cons = self.height * 2 + 0.3
         Clothes.total_cons += suit_cons
         print(f"Расход ткани на костюм № {Suit.s_count} с ростом {self.height} равен {suit_cons}")
@@ -30,21 +38,17 @@ class Coat(Clothes):
         self.size = size
         Coat.c_count += 1
 
-    def sewing_coat(self):
+    @property
+    def sewing(self):
         coat_cons = round((self.size / 6.5 + 0.5), 2)
         Clothes.total_cons += coat_cons
         print(f"Расход ткани на пальто № {Coat.c_count} размером {self.size} равен {coat_cons}")
 
 
 suit_1 = Suit(7)
-suit_1.sewing_suit()
-suit_2 = Suit(11)
-suit_2.sewing_suit()
+suit_1.sewing
 coat_1 = Coat(46)
-coat_1.sewing_coat()
-coat_2 = Coat(52)
-coat_2.sewing_coat()
-coat_3 = Coat(27)
-coat_3.sewing_coat()
-
+coat_1.sewing
 print(f"Cуммарный расход ткани {Clothes.total_cons}")
+
+#  Я прикрутил ABC, но не понял сути: задача прекрасно решается без них. Просто меньше имен методов?
