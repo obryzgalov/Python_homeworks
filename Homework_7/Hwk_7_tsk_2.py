@@ -14,6 +14,9 @@ class Clothes(ABC):
 
     @abstractmethod
     def sewing(self):
+        """
+        подставить формулу
+        """
         pass
 
 
@@ -28,7 +31,10 @@ class Suit(Clothes):
     def sewing(self):
         suit_cons = self.height * 2 + 0.3
         Clothes.total_cons += suit_cons
-        print(f"Расход ткани на костюм № {Suit.s_count} с ростом {self.height} равен {suit_cons}")
+        return float(suit_cons)
+
+    def __str__(self):
+        return f"Расход ткани на костюм № {Suit.s_count} размером {self.height} равен {self.sewing}"
 
 
 class Coat(Clothes):
@@ -40,15 +46,18 @@ class Coat(Clothes):
 
     @property
     def sewing(self):
-        coat_cons = round((self.size / 6.5 + 0.5), 2)
+        coat_cons = self.size / 6.5 + 0.5
         Clothes.total_cons += coat_cons
-        print(f"Расход ткани на пальто № {Coat.c_count} размером {self.size} равен {coat_cons}")
+        return float(coat_cons)
+
+    def __str__(self):
+        return f"Расход ткани на пальто № {Coat.c_count} размером {self.size} равен {self.sewing}"
 
 
 suit_1 = Suit(7)
-suit_1.sewing
+print(suit_1)
 coat_1 = Coat(46)
-coat_1.sewing
-print(f"Cуммарный расход ткани {Clothes.total_cons}")
+print(coat_1)
+print("Cуммарный расход ткани", '{:4.2f}'.format(Clothes.total_cons))
 
-#  Я прикрутил ABC, но не понял сути: задача прекрасно решается без них. Просто меньше имен методов?
+#  Я прикрутил ABC, но не понял сути: задача прекрасно решается без них. Просто МЕНЬШЕ ИМЕН МЕТОДОВ?
