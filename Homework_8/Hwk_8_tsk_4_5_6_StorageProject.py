@@ -15,7 +15,10 @@ class OfficeEquip(Storage):
         return f"на складе {self.amount} {self.name}"
 
     def sended(self, send, office):
-        if str(send).isdigit() and self.amount >= send:
+
+        if not str(send).isdigit():
+            return f'Это не число!'
+        elif self.amount >= send:
             self.amount -= send
             self.num_office[office] += send
             return f'на складе {self.amount} принтеров в офисе {office} {self.num_office[office]} {self.name}'
@@ -57,7 +60,9 @@ print(netbook_1)
 print(netbook_1.sended(2, 'office_2'))
 scanner_1 = Scanners('A3', 'max15', 2022, 7)
 print(scanner_1)
-print(scanner_1.sended(3, 'office_1'))
+print(scanner_1.sended('g', 'office_1'))
 print(printer_1.num_office)
 print(netbook_1.num_office)
 print(scanner_1.num_office)
+scanner_2 = Scanners('A3', 'max15', 2022, 9)
+print(scanner_2.sended(10, 'office_2'))
