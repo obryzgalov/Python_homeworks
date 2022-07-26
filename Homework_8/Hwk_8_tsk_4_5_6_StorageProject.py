@@ -31,9 +31,6 @@ class Printers(OfficeEquip):
         self.cartridge = cartridge
         self.wireless = wireless
 
-    # def sended(self, send, office):
-    # self.p_office[office] = self.p_office[office]
-
 
 class Netbooks(OfficeEquip):
     name = "нетбуков"
