@@ -9,9 +9,7 @@ class OfficeEquip(Storage):
         self.d_model = d_model
         self.d_year = d_year
         self.amount = amount
-        self.p_office = {'office_1': 0, 'office_2': 0}
-        self.s_office = {'office_1': 0, 'office_2': 0}
-        self.n_office = {'office_1': 0, 'office_2': 0}
+        self.num_office = {'office_1': 0, 'office_2': 0}
 
     def __str__(self):
         return f"на складе {self.amount} {self.name}"
@@ -19,8 +17,8 @@ class OfficeEquip(Storage):
     def sended(self, send, office):
         if str(send).isdigit() and self.amount >= send:
             self.amount -= send
-            self.p_office[office] += send
-            return f'на складе {self.amount} принтеров в офисе {office} {self.p_office[office]} {self.name}'
+            self.num_office[office] += send
+            return f'на складе {self.amount} принтеров в офисе {office} {self.num_office[office]} {self.name}'
         else:
             return f'we cant'
 
@@ -32,6 +30,9 @@ class Printers(OfficeEquip):
         super().__init__(d_model, d_year, amount)
         self.cartridge = cartridge
         self.wireless = wireless
+
+    # def sended(self, send, office):
+    # self.p_office[office] = self.p_office[office]
 
 
 class Netbooks(OfficeEquip):
@@ -60,3 +61,6 @@ print(netbook_1.sended(2, 'office_2'))
 scanner_1 = Scanners('A3', 'max15', 2022, 7)
 print(scanner_1)
 print(scanner_1.sended(3, 'office_1'))
+print(printer_1.num_office)
+print(netbook_1.num_office)
+print(scanner_1.num_office)
